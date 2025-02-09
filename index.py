@@ -16,7 +16,7 @@ if not api_key:
 
 
 # Load the PDF file and split it into chunks
-loader = PyPDFLoader("unit-1.pdf")
+loader = PyPDFLoader("sample.pdf")
 documents = loader.load()
 
 
