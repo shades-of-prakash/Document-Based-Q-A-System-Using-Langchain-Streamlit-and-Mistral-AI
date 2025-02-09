@@ -74,10 +74,10 @@ MISTRAL_API_KEY=your_api_key_here
 
 ### **1. Load the PDF Document and Create a FAISS Index**
 
-The script will load `unit-1.pdf`, split it into chunks of 500 characters with 50 characters overlapping, and create embeddings using **Hugging Face Sentence Transformers**. It then saves the FAISS index locally.
+The script will load `your_pdf.pdf` , split it into chunks of 500 characters with 50 characters overlapping, and create embeddings using **Hugging Face Sentence Transformers**. It then saves the FAISS index locally.
 
 ```python
-loader = PyPDFLoader("unit-1.pdf")
+loader = PyPDFLoader("your_pdf.pdf")
 documents = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
@@ -175,24 +175,3 @@ Machine learning is a field of artificial intelligence that focuses on creating 
 - `sentence-transformers`  
 - `faiss-cpu`  
 - `python-dotenv`  
-
----
-
-## **License**
-
-This project is licensed under the MIT License.
-
----
-
-## **Contributing**
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## **Contact**
-
-For questions or suggestions, feel free to reach out at:  
-**Email:** your-email@example.com  
-**GitHub:** [your-username](https://github.com/your-username)
-
