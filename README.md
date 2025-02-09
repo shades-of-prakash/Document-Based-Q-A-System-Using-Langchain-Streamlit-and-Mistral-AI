@@ -1,7 +1,9 @@
 
-# **Document-Based Q&A System Using Langchain, Mistral AI, and Streamlit**
+# **Document-Based Q&A System Using Langchain, Mistral AI, and Streamlit**  
 
-This project provides a complete solution for building a question-answering (Q&A) system that extracts relevant information from PDF documents and answers user queries. It combines Langchain for document processing, Mistral AI for generating responses, FAISS for fast search, Hugging Face for embeddings, and Streamlit for an intuitive user interface.
+This project provides a complete solution for building a question-answering (Q&A) system that extracts relevant information from PDF documents and answers user queries. It combines **Langchain** for document processing, **Mistral AI** for generating responses, **FAISS** for fast search, **Hugging Face** for embeddings, and **Streamlit** for an intuitive user interface.
+
+🔗 **View the live demo:** [https://shadesofprakash.streamlit.app/](https://shadesofprakash.streamlit.app/)  
 
 ---
 
@@ -27,7 +29,6 @@ This project provides a complete solution for building a question-answering (Q&A
 ## **Setup Instructions**  
 
 ### **1. Prerequisites**  
-Make sure you have the following installed:  
 - Python 3.9 or higher  
 - pip (Python package manager)  
 
@@ -64,8 +65,8 @@ The web app allows you to upload a PDF, enter a question, and receive an answer 
 
 ## **Example Interaction**  
 1. Upload `unit-1.pdf` through the Streamlit UI.  
-2. Enter a question like **"What is machine learning?"**.  
-3. The system will retrieve the relevant context and generate an answer using Mistral AI.
+2. Enter a question like **"What is machine learning?"**  
+3. The system retrieves the relevant context and generates an answer using Mistral AI.
 
 ---
 
@@ -78,7 +79,4 @@ The web app allows you to upload a PDF, enter a question, and receive an answer 
 - `streamlit`  
 - `python-dotenv`  
 
----
 
-## **License**  
-This project is licensed under the MIT License.
