@@ -1,0 +1,38 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.log
+*.pkl
+*.db
+*.sqlite3
+*.env
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+
+# FAISS Index files
+faiss_index/
+*.index
+*.pkl
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
